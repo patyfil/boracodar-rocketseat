@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonts -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Multi Step</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="formStep flex active">
+          <span>1</span>
+          <p>Contato</p>
+        </div>
+        <i class="ph ph-caret-right"></i>
+        <div class="formStep flex">
+          <span>2</span>
+          <p>Empresa</p>
+        </div>
+        <i class="ph ph-caret-right"></i>
+        <div class="formStep flex">
+          <span>3</span>
+          <p>Projeto</p>
+        </div>
+      </header>
+
+      <div class="steps">
+        <div class="step show">
+          <form action="" class="flex">
+            <label for="name">Nome</label>
+            <input
+              id="name"
+              type="text"
+              placeholder="Como prefere ser chamado"
+            />
+            <label for="phone">Telefone</label>
+            <input
+              id="phone"
+              type="text"
+              placeholder="Digite seu número de Whatsapp"
+            />
+            <label for="email">E-mail</label>
+            <input id="email" type="email" placeholder="Digite seu e-mail" />
+          </form>
+        </div>
+
+        <div class="step">
+          <form action="" class="flex">
+            <label for="companyName">Nome da empresa</label>
+            <input
+              id="companyName"
+              type="text"
+              placeholder="Qual é o nome da empresa"
+            />
+            <label for="employeesNumber">Número de funcionários</label>
+            <input
+              id="employeesNumber"
+              type="text"
+              placeholder="Digite o número de colaboradores"
+            />
+            <label for="about">Sobre seu negócio</label>
+            <input
+              id="about"
+              type="text"
+              placeholder="Fale um pouco sobre seus produtos ou serviços"
+            />
+          </form>
+        </div>
+
+        <div class="step">
+          <form action="" class="flex">
+            <label for="aboutProject">Sobre seu projeto</label>
+            <textarea
+              id="aboutProject"
+              name="aboutProject"
+              rows="10"
+              cols="50"
+              placeholder="Descreva quais os objetivos desse projeto"
+            ></textarea>
+          </form>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button onclick="previous()" class="back">VOLTAR</button>
+        <button onclick="next()" class="next">CONTINUAR</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

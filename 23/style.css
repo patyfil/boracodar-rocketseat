@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --purple-mid: #633bbc;
+  --purple-light: #8257e5;
+
+  --white: #fff;
+  --gray-100: #e1e1e6;
+  --gray-200: #8d8d99;
+  --gray-300: #7c7c8a;
+  --gray-400: #323238;
+
+  --sucess-color: #1d8841;
+
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+}
+
+input,
+button,
+textarea {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 37rem;
+  height: 35rem;
+  background: var(--white);
+  border: 1px solid var(--gray-100);
+  border-radius: 6px;
+  padding: 2rem;
+  position: relative;
+}
+
+.step {
+  background: var(--white);
+  width: 90%;
+  opacity: 0;
+  position: absolute;
+  z-index: 0;
+  top: 4rem;
+}
+
+.show {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* header */
+header {
+  align-items: center;
+  justify-content: space-between;
+  color: var(--gray-200);
+  font-weight: 700;
+}
+
+header .formStep {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+header .formStep span {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background-color: var(--gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .formStep.active {
+  color: var(--gray-400);
+}
+
+header .formStep.active span {
+  background-color: var(--purple-mid);
+  color: var(--white);
+}
+
+header .formStep.done {
+  color: var(--gray-400);
+}
+
+header .formStep.done span {
+  background-color: var(--sucess-color);
+  color: var(--white);
+}
+
+/* form */
+.step form {
+  flex-direction: column;
+
+  margin-top: 2rem;
+  padding-top: 2rem;
+
+  border-top: 1px solid var(--gray-100);
+
+  gap: 1rem;
+}
+
+.step form label {
+  font-weight: 700;
+  color: var(--gray-400);
+}
+
+.step form input {
+  padding: 0.5rem 1rem;
+  background: var(--white);
+  border: 1px solid var(--gray-100);
+  border-radius: 2px;
+  height: 3.5rem;
+  color: var(--gray-400);
+}
+
+.step form textarea {
+  padding: 0.5rem 1rem;
+  background: var(--white);
+  border: 1px solid var(--gray-100);
+  border-radius: 2px;
+  color: var(--gray-400);
+  resize: none;
+}
+
+.step form input:focus,
+.step form textarea:focus {
+  outline: 1px solid var(--purple-mid);
+}
+
+.step form input::placeholder,
+.step form textarea::placeholder {
+  color: var(--gray-200);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.step form input:hover,
+.step form textarea:hover {
+  border: 1px solid var(--purple-mid);
+}
+
+/* buttons */
+.container .buttons {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 2rem;
+}
+
+.container button {
+  margin-top: 1rem;
+  width: 9.8rem;
+
+  border: 0;
+  padding: 1rem 2rem;
+
+  background-color: var(--purple-mid);
+  color: var(--white);
+  border-radius: 6px;
+
+  font-weight: 700;
+
+  transition: all 300ms ease-out;
+  cursor: pointer;
+}
+
+.container button.back {
+  background-color: var(--white);
+  border: 1px solid var(--purple-mid);
+  color: var(--purple-mid);
+}
+
+.container button.next:hover {
+  background-color: var(--purple-light);
+}
+
+@media (max-width: 45rem) {
+  header {
+    width: 95%;
+  }
+
+  .container {
+    width: 90%;
+    height: 35rem;
+    background: var(--white);
+    border: 1px solid var(--gray-100);
+    border-radius: 6px;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .steps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .step {
+    top: 3rem;
+    background-color: transparent;
+  }
+  .buttons {
+    width: 100%;
+  }
+}

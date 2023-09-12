@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="header">
+        <h1>Lista de Compras</h1>
+      </div>
+      <div class="form">
+        <div class="container item">
+          <label for="item">Item</label>
+          <input type="text" />
+        </div>
+        <div class="container quantity">
+          <label for="item">Quantidade</label>
+          <input type="text" />
+        </div>
+        <!-- <div class="container category">
+          <label for="item">Categoria</label>
+          <input type="text" />
+        </div> -->
+        <div class="container category">
+          <label for="item">Categoria</label>
+          <div class="dropdown">
+            <button class="dropbtn">Selecione</button>
+            <div class="dropdown-content">
+              <a href="#">
+                <i class="ph ph-hamburger yellow"></i>
+                Padaria
+              </a>
+              <a href="#">
+                <i class="ph ph-carrot green"></i>
+                Legume
+              </a>
+              <a href="#">
+                <i class="ph ph-fork-knife pink"></i>
+                Carne
+              </a>
+              <a href="#">
+                <i class="ph ph-apple-logo orange"></i>
+                Fruta
+              </a>
+              <a href="#">
+                <i class="ph ph-drop blue"></i>
+                Bebida
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container new">
+          <input type="button" value="" />
+        </div>
+      </div>
+      <div class="list">
+        <div class="item">
+          <div class="description">
+            <input type="checkbox" />
+            <div class="wrapper">
+              <p>Maçã</p>
+              <span>2 unidades</span>
+            </div>
+          </div>
+          <div class="detail">
+            <div class="category orange">
+              <i class="ph ph-apple-logo"></i>
+            </div>
+            <div class="more">
+              <i class="ph-fill ph-dots-three-outline-vertical"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="description">
+            <input type="checkbox" />
+            <div class="wrapper">
+              <p>Pão francês</p>
+              <span>4 unidades</span>
+            </div>
+          </div>
+          <div class="detail">
+            <div class="category yellow">
+              <i class="ph ph-hamburger"></i>
+            </div>
+            <div class="more">
+              <i class="ph-fill ph-dots-three-outline-vertical"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="description">
+            <input type="checkbox" />
+            <div class="wrapper">
+              <p>Brócolis</p>
+              <span>1 unidade</span>
+            </div>
+          </div>
+          <div class="detail">
+            <div class="category green">
+              <i class="ph ph-carrot"></i>
+            </div>
+            <div class="more">
+              <i class="ph-fill ph-dots-three-outline-vertical"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="description">
+            <input type="checkbox" />
+            <div class="wrapper">
+              <p>Leite</p>
+              <span>2 litros</span>
+            </div>
+          </div>
+          <div class="detail">
+            <div class="category blue">
+              <i class="ph ph-drop"></i>
+            </div>
+            <div class="more">
+              <i class="ph-fill ph-dots-three-outline-vertical"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="description">
+            <input type="checkbox" />
+            <div class="wrapper">
+              <p>Peito de Frango</p>
+              <span>2 kg</span>
+            </div>
+          </div>
+          <div class="detail">
+            <div class="category pink">
+              <i class="ph ph-fork-knife"></i>
+            </div>
+            <div class="more">
+              <i class="ph-fill ph-dots-three-outline-vertical"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="item done">
+          <div class="description">
+            <input type="checkbox" checked />
+            <div class="wrapper">
+              <p>Mamão</p>
+              <span>1 unidade</span>
+            </div>
+          </div>
+          <div class="detail">
+            <div class="category orange">
+              <i class="ph ph-apple-logo"></i>
+            </div>
+            <div class="more">
+              <i class="ph-fill ph-dots-three-outline-vertical"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
