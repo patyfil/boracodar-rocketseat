@@ -262,7 +262,7 @@
         <td>16/08/2023</td>
         <td align="center">
         <a href="32">
-        <img width="300px" src="32/.github/preview.webp"/></a></td>
+        <img width="300px" src="32/.github/preview.jpg"/></a></td>
     </tr>
         <tr>
         <td>33</td>
@@ -270,7 +270,7 @@
         <td>23/08/2023</td>
         <td align="center">
         <a href="33">
-        <img width="300px" src="33/.github/preview.webp"/></a></td>
+        <img width="300px" src="33/.github/preview.jpg"/></a></td>
     </tr>
         <tr>
         <td>34</td>
@@ -278,7 +278,7 @@
         <td>30/08/2023</td>
         <td align="center">
         <a href="34">
-        <img width="300px" src="34/.github/preview.webp"/></a></td>
+        <img width="300px" src="34/.github/preview.jpg"/></a></td>
     </tr>
         <tr>
         <td>35</td>
@@ -286,7 +286,7 @@
         <td>06/09/2023</td>
         <td align="center">
         <a href="35">
-        <img width="300px" src="35/.github/preview.webp"/></a></td>
+        <img width="300px" src="35/.github/preview.jpg"/></a></td>
     </tr>
         <tr>
         <td>36</td>
