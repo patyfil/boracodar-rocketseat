@@ -294,7 +294,7 @@
         <td>13/09/2023</td>
         <td align="center">
         <a href="36">
-        <img width="300px" src="36/.github/preview.webp"/></a></td>
+        <img width="300px" src="36/.github/preview.jpg"/></a></td>
     </tr>
     </tbody>
 </table></p>
