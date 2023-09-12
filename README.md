@@ -146,7 +146,7 @@
         </tr>
     <tr>
         <td>18</td>
-        <td><a href="18">Character Card</a></td>
+        <td><a href="18">Um card de personagem</a></td>
         <td>10/05/2023</td>
         <td align="center">
         <a href="18">
@@ -154,7 +154,7 @@
     </tr>
     <tr>
         <td>19</td>
-        <td><a href="19">Transport Widget</a></td>
+        <td><a href="19">Um Widget de transporte</a></td>
         <td>17/05/2023</td>
         <td align="center">
         <a href="19">
@@ -162,7 +162,7 @@
     </tr>
         <tr>
         <td>20</td>
-        <td><a href="20">Art Gallery</a></td>
+        <td><a href="20">Galeria de Hover</a></td>
         <td>24/05/2023</td>
         <td align="center">
         <a href="20">
@@ -170,7 +170,7 @@
     </tr>
     <tr>
         <td>21</td>
-        <td><a href="21">Shopping Cart</a></td>
+        <td><a href="21">Carrinho de Compras</a></td>
         <td>31/05/2023</td>
         <td align="center">
         <a href="21">
@@ -178,7 +178,7 @@
     </tr>
     <tr>
         <td>22</td>
-        <td><a href="22">Profile</a></td>
+        <td><a href="22">Profile Settings</a></td>
         <td>07/06/2023</td>
         <td align="center">
         <a href="22">
@@ -186,7 +186,7 @@
     </tr>
     <tr>
         <td>23</td>
-        <td><a href="23">Formulário multi step</a></td>
+        <td><a href="23">Formulário Multi Step</a></td>
         <td>14/06/2023</td>
         <td align="center">
         <a href="23">
@@ -194,7 +194,7 @@
     </tr>
     <tr>
         <td>24</td>
-        <td><a href="24">Ajuste de iluminação</a></td>
+        <td><a href="24">Ajustes de iluminação</a></td>
         <td>21/06/2023</td>
         <td align="center">
         <a href="24">
@@ -202,7 +202,7 @@
     </tr>
     <tr>
         <td>25</td>
-        <td><a href="25">Player VR</a></td>
+        <td><a href="25">Player de VR</a></td>
         <td>28/06/2023</td>
         <td align="center">
         <a href="25">
@@ -218,7 +218,7 @@
     </tr>
         <tr>
         <td>27</td>
-        <td><a href="27">404</a></td>
+        <td><a href="27">Página 404</a></td>
         <td>12/07/2023</td>
         <td align="center">
         <a href="27">
@@ -234,7 +234,7 @@
     </tr>
         <tr>
         <td>29</td>
-        <td><a href="29">Antes e Depois</a></td>
+        <td><a href="29">Antes e Depois com IA</a></td>
         <td>26/07/2023</td>
         <td align="center">
         <a href="29">
@@ -242,7 +242,7 @@
     </tr>
         <tr>
         <td>30</td>
-        <td><a href="30">Recomendação de Filmes</a></td>
+        <td><a href="30">Recomendação de Filme (IA)</a></td>
         <td>02/08/2023</td>
         <td align="center">
         <a href="30">
